@@ -17,7 +17,7 @@ text-align: center;
 font-size: 32px;
 font-style: normal;
 font-weight: 800;
-/* line-height: 3.9;  */
+/* line-height: 3.9;   */
 text-transform: uppercase;
 }
 .equipment-list {
@@ -33,6 +33,7 @@ text-transform: uppercase;
 .equipment-list-item-image {
     width: 240px;
     height: 240px;
+    margin-bottom: 11px;
     border-radius: 20px;
 border: 3px solid #FFF;
 
@@ -43,7 +44,7 @@ text-align: center;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-/* line-height: 19.53;  */
+/* line-height: 1.953;  */
 }
 
 
@@ -53,16 +54,19 @@ font-weight: 400;
     .equipment  {
         padding-top: 46px;
         padding-bottom: 60px;
+        background: linear-gradient(266deg, rgba(169, 198, 216, 0.90) 1.59%, rgba(60, 156, 217, 0.90) 97.25%), url(../img/equipment/equipment-bg-comp.jpeg);
+        /* background-image: url(../img/equipment/equipment-bg-comp.jpeg); */
+        background-size: cover; 
     }
 
     .equipment-container {
        width: 892px;
-       background-image: url(../img/equipment/equipment-bg-comp.jpeg);
-       background-size: cover; 
+      
     }
 
     .equipment-title {
         width: 827px;
+        color: #FFF;
     }
 
     .equipment-list {
@@ -72,5 +76,13 @@ font-weight: 400;
     justify-content: center;
     /* flex-wrap: wrap; */
     }
+
+    .equipment-list-item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .equipment-list-item-text {
+        color: #FFF; 
+    }
+
 
 }
