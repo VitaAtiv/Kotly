@@ -158,6 +158,20 @@ line-height: normal;
     width: 42px;
     height: 42px;
 }
+
+.contact-call-btn {
+    width: 240px;
+height: 57px;
+margin-bottom: 28px;
+border: 1px solid transparent;
+border-radius: 25px;
+background: #73C1F2;
+    color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+}
 .contact-map {
 }
 
@@ -185,6 +199,10 @@ line-height: normal;
        .contact-call-title-comp {
         display: block;
         
+    }
+
+    .contact-call-btn {
+        display: none;
     }
 
     .contact-map {
