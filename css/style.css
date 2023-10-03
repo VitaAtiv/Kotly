@@ -2,13 +2,15 @@
 /* section  equipment */
 
 .equipment {
-    width: 534px;
+    
     padding: 0 42px;
 }
 .equipment-container {
+    width: 347px;
     margin: 0 auto;
 }
 .equipment-title {
+    margin-bottom: 30px;
     color: #606060;
 text-align: center;
 
@@ -23,6 +25,10 @@ text-transform: uppercase;
 .equipment-list-item {
     width: 246px;
     height: 291px;
+   
+}
+.equipment-list-item:not(:last-child) {
+    margin-bottom: 30px;
 }
 .equipment-list-item-image {
     width: 240px;
@@ -38,4 +44,33 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 /* line-height: 19.53;  */
+}
+
+
+
+@media (min-width: 1080px) {
+
+    .equipment  {
+        padding-top: 46px;
+        padding-bottom: 60px;
+    }
+
+    .equipment-container {
+       width: 892px;
+       background-image: url(../img/equipment/equipment-bg-comp.jpeg);
+       background-size: cover; 
+    }
+
+    .equipment-title {
+        width: 827px;
+    }
+
+    .equipment-list {
+        display: flex;
+        gap: 85px;
+        flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    }
+
 }
