@@ -140,12 +140,23 @@ line-height: normal;
 }
 
 .contact-call-list-internet {
+    display: flex;
+    gap: 16px;
 }
 .contact-call-list-internet-item {
+    width: 42px;
+    height: 42px;
 }
 .contact-call-list-internet-item-link {
+    width: 42px;
+    height: 42px;
 }
+
+
 .contact-call-list-internet-item-link-img {
+    display: block;
+    width: 42px;
+    height: 42px;
 }
 .contact-map {
 }
@@ -155,9 +166,15 @@ line-height: normal;
 
 @media (min-width: 1080px) {
 
-
-    .contact-call {
+    .contact-conteiner {
+        display: flex;
+        gap: 13px;
         width: 1240px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .contact-call {
+        
        
     }
 
@@ -170,6 +187,8 @@ line-height: normal;
         
     }
 
-    
+    .contact-map {
+        width: 990px;
+    }
     
 }
