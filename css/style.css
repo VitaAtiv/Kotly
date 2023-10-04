@@ -126,13 +126,29 @@ line-height: 30px; /* 125% */
 text-transform: uppercase;
 }
 .contact-call-list-ad {
+    position: relative;
+    margin-bottom: 28px;
 }
 .contact-call-list-ad-item {
+    padding-left: 31px;
     color: #606060;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+
+
+.contact-call-list-ad-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 15px; 
+    transform: translateY(-50%);
+    background-image: url(../img/footer/icon-befor.svg#icon-place);
+    /* background-color: #0D5C63; */
 }
 
 .contact-call-list-ad-item:not(:last-child) {
@@ -142,10 +158,11 @@ line-height: normal;
 .contact-call-list-internet {
     display: flex;
     gap: 16px;
+    
 }
 .contact-call-list-internet-item {
-    width: 42px;
-    height: 42px;
+    /* width: 42px;
+    height: 42px; */
 }
 .contact-call-list-internet-item-link {
     width: 42px;
@@ -157,7 +174,10 @@ line-height: normal;
     display: block;
     width: 42px;
     height: 42px;
+    background-color: #0D5C63;
 }
+
+
 
 .contact-call-btn {
     width: 240px;
