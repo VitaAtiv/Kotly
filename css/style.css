@@ -1,4 +1,121 @@
 
+
+/* header */
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 133px;
+    background-image: url(../img/header/bassroom-bg.jpg);
+}
+.contacts {
+    display: flex;
+}
+.contacts-title {
+}
+.contacts-list {
+}
+.contacts-list-item {
+}
+.contacts-internet {
+}
+.contacts-internet-item {
+}
+.contacts-internet-item-link {
+}
+.contacts-internet-item-link-icon {
+}
+.main {
+    padding-top: 20px;
+}
+.main-container {
+    display: flex;
+    gap: 95px;
+    margin-bottom: 98px;
+    justify-content: center;
+    align-items: center;
+}
+.main-list {
+    display: flex;
+    gap: 26px;
+}
+.main-list-item {
+    color: #FFF;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 171.429% */
+}
+.main-btn {
+    width: 240px;
+height: 57px;
+padding: 16px 57px 17px 67px;
+    color: #FFF;
+font-family: Manrope;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+border: 1px solid transparent;
+border-radius: 25px;
+background: #73C1F2;
+}
+.main-title {
+    width: 327px;
+    color: #FFF;
+text-align: center;
+font-family: Manrope;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 50px; /* 125% */
+text-transform: uppercase;
+}
+.main-all-btn {
+}
+.main-all-catalog-btn {
+    width: 240px;
+height: 57px;
+padding: 16px 36px 17px 67px;
+border: 1px solid transparent;
+border-radius: 25px;
+background: #73C1F2;
+    color: #FFF;
+font-family: Manrope;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+}
+.main-all-consultaition-btn {
+    width: 240px;
+    height: 57px;
+    padding: 16px 36px 17px 73px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    background: #73C1F2;
+        color: #FFF;
+    font-family: Manrope;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+}
+
+@media (min-width: 1080px) {
+
+    .container {
+        padding-top: 22px;
+        padding-bottom: 240px;
+        
+    }
+    .main-title {
+        width: 591px;
+        font-size: 65px;
+    }
+}
+
+
 /* section  equipment */
 
 .equipment {
