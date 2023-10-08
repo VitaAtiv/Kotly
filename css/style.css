@@ -6,23 +6,64 @@
     padding-top: 30px;
     padding-bottom: 133px;
     background-image: url(../img/header/bassroom-bg.jpg);
+    border-bottom: 1px solid #fff;
 }
 .contacts {
+  
+    
+}
+
+.contacts-container {
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-burger {
+    width: 42px;
+    height: 36px;
+    fill: #FFF;
 }
 .contacts-title {
+    width: 146px;
+    height: 40px;
+    margin-left: 130px;
+    color: #FFF;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 125% */
+text-transform: uppercase;
 }
 .contacts-list {
+    display: flex;
+    gap: 72px;
+    margin-left: 78px;
+    align-items: center;
 }
 .contacts-list-item {
+    width: 193px;
+    color: #FFF;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 .contacts-internet {
+    display: flex;
+    gap: 5px;
+
 }
 .contacts-internet-item {
 }
 .contacts-internet-item-link {
 }
 .contacts-internet-item-link-icon {
+    width: 30px;
+    height: 30px;
 }
 .main {
     padding-top: 20px;
@@ -106,7 +147,12 @@ line-height: 24px; /* 171.429% */
 
     .container {
         padding-top: 22px;
-        padding-bottom: 240px;
+        padding-bottom: 22px;
+        
+    }
+    .contacts {
+        padding-bottom: 22px;
+        border-bottom: 1px solid #fff;
         
     }
     .main-title {
